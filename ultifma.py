@@ -24,7 +24,7 @@ def force():
 sum_forcesX = 0
 sum_forcesY = 0
 ### This variable followed by the loop indicates how many times the function "force()" will be executed
-sd = int(input('Forces: '))
+sd = int(input('Fuerzas: '))
 line()
 for n in range(0, sd):
     forces = force()
@@ -34,8 +34,8 @@ for n in range(0, sd):
 ### This part will calculate the sum of the forces as a single vector and the inclination in degrees, in order to print them
 total_force = math.sqrt((sum_forcesX**2)+(sum_forcesY**2))
 degrees = math.degrees((math.atan(sum_forcesY/sum_forcesX)))
-print('The summatory of the forces is:',total_force)
-print('with an inclination in degrees of',str(degrees)+'°')
+print('La sumatoria total de las fuerzas es de: ',total_force)
+print('con un ángulo de inclinación en grados de: ',str(degrees)+'°')
 
 ### Even if this code is posted on public, I rather keep it to myself until the due date of it, so don't copy it
 ### I know is not the biggest deal, but as I said, I'm the creator of it, and it costed me a lot to make it work :c
